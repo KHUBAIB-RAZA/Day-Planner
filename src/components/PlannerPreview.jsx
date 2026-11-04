@@ -3,6 +3,7 @@ import { getThemeById } from '../themes';
 import { formatDisplayDate } from '../utils/dateUtils';
 import { DecorativeCorner, ThemeHeaderMotif } from './ThemeDecorations';
 import { Calendar, Check } from 'lucide-react';
+import { formatTaskTime } from '../utils/timeUtils';
 
 export const PlannerPreview = forwardRef(function PlannerPreview(
   {
@@ -220,7 +221,7 @@ export const PlannerPreview = forwardRef(function PlannerPreview(
                             borderColor: theme.colors.cardBorder,
                           }}
                         >
-                          {task.time}
+                          {formatTaskTime(task.time)}
                         </span>
                       )}
                     </div>

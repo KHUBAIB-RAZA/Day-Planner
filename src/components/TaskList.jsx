@@ -12,6 +12,7 @@ import {
   AlertCircle,
   FileText,
 } from 'lucide-react';
+import { formatTaskTime, toTimeInputValue } from '../utils/timeUtils';
 
 export function TaskList({
   tasks = [],
@@ -38,7 +39,7 @@ export function TaskList({
   const handleStartEdit = (task) => {
     setEditingId(task.id);
     setEditTitle(task.title || '');
-    setEditTime(task.time || '');
+    setEditTime(toTimeInputValue(task.time));
     setEditDescription(task.description || '');
   };
 
@@ -46,7 +47,7 @@ export function TaskList({
     if (!editTitle.trim()) return;
     onUpdateTask(taskId, {
       title: editTitle.trim(),
-      time: editTime.trim(),
+      time: editTime,
       description: editDescription.trim(),
     });
     setEditingId(null);
@@ -63,7 +64,7 @@ export function TaskList({
     onAddTask({
       id: Date.now().toString(),
       title: newTitle.trim(),
-      time: newTime.trim(),
+      time: newTime,
       description: newDescription.trim(),
       completed: false,
     });
@@ -156,14 +157,15 @@ export function TaskList({
               />
             </div>
             <div>
-              <label className="block text-[11px] font-medium text-stone-600 mb-1">
+              <label htmlFor="new-task-time" className="block text-[11px] font-medium text-stone-600 mb-1">
                 Scheduled Time (Optional)
               </label>
               <input
-                type="text"
+                id="new-task-time"
+                type="time"
+                step="60"
                 value={newTime}
                 onChange={(e) => setNewTime(e.target.value)}
-                placeholder="e.g. 09:30 AM"
                 className="w-full px-3 py-2 text-xs bg-white border border-stone-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500/20 focus:border-indigo-500"
               />
             </div>
@@ -218,10 +220,11 @@ export function TaskList({
                     className="sm:col-span-2 px-3 py-1.5 text-xs bg-white border border-stone-200 rounded-lg"
                   />
                   <input
-                    type="text"
+                    aria-label={`Scheduled time for task ${index + 1}`}
+                    type="time"
+                    step="60"
                     value={editTime}
                     onChange={(e) => setEditTime(e.target.value)}
-                    placeholder="Time (e.g. 10:00 AM)"
                     className="px-3 py-1.5 text-xs bg-white border border-stone-200 rounded-lg"
                   />
                 </div>
@@ -288,7 +291,7 @@ export function TaskList({
                   {task.time && (
                     <span className="inline-flex items-center space-x-1 px-1.5 py-0.5 rounded bg-stone-100 text-stone-600 text-[10px] font-mono shrink-0">
                       <Clock className="w-2.5 h-2.5" />
-                      <span>{task.time}</span>
+                      <span>{formatTaskTime(task.time)}</span>
                     </span>
                   )}
                 </div>
