@@ -1,0 +1,138 @@
+export const seasonalThemes = [
+  {
+    id: 'spring',
+    name: 'Spring Blossom',
+    category: 'Seasonal',
+    description: 'Fresh meadow green, tender sakura blush, and morning dew renewal.',
+    symbol: '🌸',
+    colors: {
+      primary: '#059669', // Meadow green
+      secondary: '#db2777', // Sakura pink
+      accent: '#10b981', // Spring mint
+      bg: 'linear-gradient(135deg, #f0fdf4 0%, #fdf2f8 50%, #ffffff 100%)',
+      cardBg: 'rgba(255, 255, 255, 0.9)',
+      cardBorder: '#d1fae5',
+      text: '#064e3b',
+      textMuted: '#047857',
+      border: '#059669',
+      outerBorder: '2px solid #db2777',
+      checkboxBorder: '#059669',
+      checkboxChecked: '#059669',
+      checkboxCheckmark: '#ffffff',
+      badgeBg: '#f0fdf4',
+      badgeText: '#065f46',
+    },
+    fonts: {
+      heading: '"Playfair Display", "Cormorant Garamond", serif',
+      body: '"Inter", sans-serif',
+    },
+    cornerMotif: 'floral',
+    headerMotif: 'spring-bloom',
+    headerBadge: 'SEASON OF RENEWAL',
+    subtitle: 'Fresh growth, open windows, fragrant blooms & light hearts',
+    footerQuote: '“No matter how long the winter, spring is sure to follow.”',
+    previewBadgeColor: '#059669',
+  },
+  {
+    id: 'summer',
+    name: 'Summer Solstice',
+    category: 'Seasonal',
+    description: 'Golden sunshine yellow, vibrant Mediterranean turquoise, and coastal warmth.',
+    symbol: '☀️',
+    colors: {
+      primary: '#0284c7', // Mediterranean turquoise
+      secondary: '#d97706', // Sunny amber
+      accent: '#eab308', // Solar yellow
+      bg: 'linear-gradient(135deg, #f0f9ff 0%, #ffffff 50%, #fefce8 100%)',
+      cardBg: 'rgba(255, 255, 255, 0.9)',
+      cardBorder: '#bae6fd',
+      text: '#0c4a6e',
+      textMuted: '#0284c7',
+      border: '#0284c7',
+      outerBorder: '3px double #d97706',
+      checkboxBorder: '#0284c7',
+      checkboxChecked: '#0284c7',
+      checkboxCheckmark: '#ffffff',
+      badgeBg: '#e0f2fe',
+      badgeText: '#0369a1',
+    },
+    fonts: {
+      heading: '"DM Serif Display", sans-serif',
+      body: '"Inter", sans-serif',
+    },
+    cornerMotif: 'minimal',
+    headerMotif: 'sun',
+    headerBadge: 'SUNNY DAYS',
+    subtitle: 'Golden sunshine, ocean breeze, high energy & joyful pursuits',
+    footerQuote: '“Live in the sunshine, swim the sea, drink the wild air.” — Ralph Waldo Emerson',
+    previewBadgeColor: '#0284c7',
+  },
+  {
+    id: 'autumn',
+    name: 'Autumn Foliage',
+    category: 'Seasonal',
+    description: 'Rustic copper, toasted maple, warm cider, and crisp falling leaves.',
+    symbol: '🍂',
+    colors: {
+      primary: '#c2410c', // Rustic copper
+      secondary: '#b45309', // Warm amber
+      accent: '#d97706', // Spiced maple
+      bg: 'linear-gradient(135deg, #fff7ed 0%, #fffbeb 50%, #ffffff 100%)',
+      cardBg: 'rgba(255, 255, 255, 0.92)',
+      cardBorder: '#fed7aa',
+      text: '#7c2d12',
+      textMuted: '#9a3412',
+      border: '#ea580c',
+      outerBorder: '3px double #b45309',
+      checkboxBorder: '#ea580c',
+      checkboxChecked: '#c2410c',
+      checkboxCheckmark: '#ffffff',
+      badgeBg: '#fff7ed',
+      badgeText: '#7c2d12',
+    },
+    fonts: {
+      heading: '"DM Serif Display", "Playfair Display", serif',
+      body: '"Inter", sans-serif',
+    },
+    cornerMotif: 'leaves',
+    headerMotif: 'autumn-leaf',
+    headerBadge: 'COZY HARVEST',
+    subtitle: 'Crisp air, golden leaves, warm sweaters & comforting tea',
+    footerQuote: '“Autumn is a second spring where every leaf is a flower.” — Albert Camus',
+    previewBadgeColor: '#ea580c',
+  },
+  {
+    id: 'winter',
+    name: 'Winter Serenity',
+    category: 'Seasonal',
+    description: 'Crisp glacial blue, sparkling frost silver, and peaceful fireside hush.',
+    symbol: '❄️',
+    colors: {
+      primary: '#0f766e', // Deep glacial teal
+      secondary: '#475569', // Slate silver
+      accent: '#38bdf8', // Frost ice
+      bg: 'linear-gradient(135deg, #f0fdfa 0%, #f8fafc 50%, #ffffff 100%)',
+      cardBg: 'rgba(255, 255, 255, 0.9)',
+      cardBorder: '#ccfbf1',
+      text: '#134e4a',
+      textMuted: '#0f766e',
+      border: '#0d9488',
+      outerBorder: '2px solid #475569',
+      checkboxBorder: '#0d9488',
+      checkboxChecked: '#0f766e',
+      checkboxCheckmark: '#ffffff',
+      badgeBg: '#f0fdfa',
+      badgeText: '#115e59',
+    },
+    fonts: {
+      heading: '"Cinzel", "Playfair Display", serif',
+      body: '"Inter", sans-serif',
+    },
+    cornerMotif: 'stars',
+    headerMotif: 'snowflake',
+    headerBadge: 'FROST & COZY HUSH',
+    subtitle: 'Quiet stillness, hot chocolate, warm books & clear winter skies',
+    footerQuote: '“In the depth of winter, I finally learned that within me there lay an invincible summer.”',
+    previewBadgeColor: '#0d9488',
+  },
+];

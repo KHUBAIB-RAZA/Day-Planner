@@ -1,0 +1,138 @@
+export const jewishThemes = [
+  {
+    id: 'hanukkah',
+    name: 'Hanukkah Miracles',
+    category: 'Jewish',
+    description: 'Deep cobalt blue and radiant silver-gold with menorah flame warmth.',
+    symbol: '🕎',
+    colors: {
+      primary: '#1d4ed8', // Royal blue
+      secondary: '#ca8a04', // Candle flame gold
+      accent: '#60a5fa', // Celestial sky
+      bg: 'linear-gradient(135deg, #eff6ff 0%, #ffffff 50%, #fefce8 100%)',
+      cardBg: 'rgba(255, 255, 255, 0.9)',
+      cardBorder: '#dbeafe',
+      text: '#1e3a8a',
+      textMuted: '#2563eb',
+      border: '#3b82f6',
+      outerBorder: '3px double #ca8a04',
+      checkboxBorder: '#3b82f6',
+      checkboxChecked: '#1d4ed8',
+      checkboxCheckmark: '#ffffff',
+      badgeBg: '#eff6ff',
+      badgeText: '#1e3a8a',
+    },
+    fonts: {
+      heading: '"Cinzel", "DM Serif Display", serif',
+      body: '"Inter", sans-serif',
+    },
+    cornerMotif: 'stars',
+    headerMotif: 'star-of-david',
+    headerBadge: 'FESTIVAL OF LIGHTS',
+    subtitle: 'Celebrating courage, enduring miracles & lighting up the world',
+    footerQuote: '“A little bit of light dispels a lot of darkness.”',
+    previewBadgeColor: '#1d4ed8',
+  },
+  {
+    id: 'passover',
+    name: 'Passover Freedom',
+    category: 'Jewish',
+    description: 'Earthy sand, rich pomegranate red, and symbolic matzah tones.',
+    symbol: '🍷',
+    colors: {
+      primary: '#991b1b', // Wine red
+      secondary: '#b45309', // Warm bronze
+      accent: '#d97706', // Honey
+      bg: 'linear-gradient(135deg, #fef2f2 0%, #fffbeb 50%, #ffffff 100%)',
+      cardBg: 'rgba(255, 255, 255, 0.92)',
+      cardBorder: '#fee2e2',
+      text: '#7f1d1d',
+      textMuted: '#991b1b',
+      border: '#b91c1c',
+      outerBorder: '2px solid #b45309',
+      checkboxBorder: '#b91c1c',
+      checkboxChecked: '#991b1b',
+      checkboxCheckmark: '#ffffff',
+      badgeBg: '#fff7ed',
+      badgeText: '#9a3412',
+    },
+    fonts: {
+      heading: '"Cinzel", "Cormorant Garamond", serif',
+      body: '"Inter", sans-serif',
+    },
+    cornerMotif: 'floral',
+    headerMotif: 'star-of-david',
+    headerBadge: 'Z’MAN CHEIRUTEINU',
+    subtitle: 'Season of liberation, remembrance, freedom & story-telling',
+    footerQuote: '“In every generation, one must see oneself as if they personally went out from Egypt.”',
+    previewBadgeColor: '#991b1b',
+  },
+  {
+    id: 'rosh-hashanah',
+    name: 'Rosh Hashanah Renewal',
+    category: 'Jewish',
+    description: 'Golden apple honey, crisp pomegranate ruby, and sweet new year hopes.',
+    symbol: '🍎',
+    colors: {
+      primary: '#b45309', // Warm honey
+      secondary: '#9f1239', // Pomegranate ruby
+      accent: '#eab308', // Apple gold
+      bg: 'linear-gradient(135deg, #fffbeb 0%, #ffffff 50%, #fff1f2 100%)',
+      cardBg: 'rgba(255, 255, 255, 0.9)',
+      cardBorder: '#fef3c7',
+      text: '#78350f',
+      textMuted: '#92400e',
+      border: '#d97706',
+      outerBorder: '3px double #d97706',
+      checkboxBorder: '#d97706',
+      checkboxChecked: '#b45309',
+      checkboxCheckmark: '#ffffff',
+      badgeBg: '#fffbeb',
+      badgeText: '#78350f',
+    },
+    fonts: {
+      heading: '"DM Serif Display", "Cinzel", serif',
+      body: '"Inter", sans-serif',
+    },
+    cornerMotif: 'floral',
+    headerMotif: 'star-of-david',
+    headerBadge: 'SHANAH TOVAH U’METUKAH',
+    subtitle: 'A sweet and fulfilling new year of renewal and blessing',
+    footerQuote: '“May it be Your will that we are inscribed for a good and sweet year.”',
+    previewBadgeColor: '#d97706',
+  },
+  {
+    id: 'yom-kippur',
+    name: 'Yom Kippur Sanctity',
+    category: 'Jewish',
+    description: 'Pure white, gentle dove gray, and solemn golden quietude.',
+    symbol: '🕊️',
+    colors: {
+      primary: '#334155', // Slate
+      secondary: '#94a3b8', // Silver
+      accent: '#ca8a04', // Gentle gold
+      bg: 'linear-gradient(135deg, #f8fafc 0%, #ffffff 50%, #f1f5f9 100%)',
+      cardBg: 'rgba(255, 255, 255, 0.95)',
+      cardBorder: '#e2e8f0',
+      text: '#1e293b',
+      textMuted: '#475569',
+      border: '#64748b',
+      outerBorder: '2px solid #94a3b8',
+      checkboxBorder: '#64748b',
+      checkboxChecked: '#334155',
+      checkboxCheckmark: '#ffffff',
+      badgeBg: '#f1f5f9',
+      badgeText: '#1e293b',
+    },
+    fonts: {
+      heading: '"Cinzel", "Cormorant Garamond", serif',
+      body: '"Inter", sans-serif',
+    },
+    cornerMotif: 'minimal',
+    headerMotif: 'dove-olive',
+    headerBadge: 'DAY OF ATONEMENT',
+    subtitle: 'Teshuvah, forgiveness, inner stillness & renewal of the soul',
+    footerQuote: '“Return to the source of peace, and you will find renewal in every breath.”',
+    previewBadgeColor: '#475569',
+  },
+];

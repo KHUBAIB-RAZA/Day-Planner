@@ -1,0 +1,138 @@
+export const hinduThemes = [
+  {
+    id: 'diwali',
+    name: 'Diwali Lights',
+    category: 'Hindu',
+    description: 'Luminous marigold gold, deep terracotta, and warm candlelight glow.',
+    symbol: '🪔',
+    colors: {
+      primary: '#9a3412', // Warm terracotta / deep orange
+      secondary: '#b45309', // Saffron gold
+      accent: '#f59e0b', // Radiant marigold
+      bg: 'linear-gradient(135deg, #fffbeb 0%, #ffffff 50%, #fff7ed 100%)',
+      cardBg: 'rgba(255, 255, 255, 0.92)',
+      cardBorder: '#fef3c7',
+      text: '#7c2d12',
+      textMuted: '#9a3412',
+      border: '#ea580c',
+      outerBorder: '3px double #d97706',
+      checkboxBorder: '#ea580c',
+      checkboxChecked: '#9a3412',
+      checkboxCheckmark: '#ffffff',
+      badgeBg: '#fff7ed',
+      badgeText: '#9a3412',
+    },
+    fonts: {
+      heading: '"DM Serif Display", "Cinzel", serif',
+      body: '"Inter", sans-serif',
+    },
+    cornerMotif: 'mandala',
+    headerMotif: 'diya-mandala',
+    headerBadge: 'FESTIVAL OF LIGHTS',
+    subtitle: 'Welcoming light, prosperity, joy & triumphant goodness',
+    footerQuote: '“Tamaso ma jyotir gamaya — Lead us from darkness into radiant light.”',
+    previewBadgeColor: '#ea580c',
+  },
+  {
+    id: 'holi',
+    name: 'Holi Colors',
+    category: 'Hindu',
+    description: 'Vibrant gulal palette with splash of magenta, sunny yellow, cyan, and joy.',
+    symbol: '🎨',
+    colors: {
+      primary: '#be185d', // Vibrant magenta / rose
+      secondary: '#0284c7', // Turquoise
+      accent: '#eab308', // Gulal yellow
+      bg: 'linear-gradient(135deg, #fdf2f8 0%, #eff6ff 50%, #fefce8 100%)',
+      cardBg: 'rgba(255, 255, 255, 0.9)',
+      cardBorder: '#fce7f3',
+      text: '#831843',
+      textMuted: '#be185d',
+      border: '#db2777',
+      outerBorder: '2px solid #db2777',
+      checkboxBorder: '#db2777',
+      checkboxChecked: '#be185d',
+      checkboxCheckmark: '#ffffff',
+      badgeBg: '#fdf2f8',
+      badgeText: '#be185d',
+    },
+    fonts: {
+      heading: '"Playfair Display", serif',
+      body: '"Inter", sans-serif',
+    },
+    cornerMotif: 'floral',
+    headerMotif: 'diya-mandala',
+    headerBadge: 'FESTIVAL OF COLORS',
+    subtitle: 'Celebrating the arrival of spring, friendship & cheerful spirits',
+    footerQuote: '“Let the colors of joy, love and laughter brighten every corner of your life.”',
+    previewBadgeColor: '#db2777',
+  },
+  {
+    id: 'navratri',
+    name: 'Navratri Devotion',
+    category: 'Hindu',
+    description: 'Regal crimson, sacred turmeric, and vibrant dandiya festival motifs.',
+    symbol: '🌸',
+    colors: {
+      primary: '#991b1b', // Sacred red
+      secondary: '#ca8a04', // Turmeric gold
+      accent: '#ea580c', // Bright saffron
+      bg: 'linear-gradient(135deg, #fef2f2 0%, #ffffff 50%, #fefce8 100%)',
+      cardBg: 'rgba(255, 255, 255, 0.9)',
+      cardBorder: '#fee2e2',
+      text: '#7f1d1d',
+      textMuted: '#991b1b',
+      border: '#dc2626',
+      outerBorder: '3px double #ca8a04',
+      checkboxBorder: '#dc2626',
+      checkboxChecked: '#991b1b',
+      checkboxCheckmark: '#ffffff',
+      badgeBg: '#fef2f2',
+      badgeText: '#991b1b',
+    },
+    fonts: {
+      heading: '"Cinzel", "DM Serif Display", serif',
+      body: '"Inter", sans-serif',
+    },
+    cornerMotif: 'mandala',
+    headerMotif: 'diya-mandala',
+    headerBadge: 'NINE SACRED NIGHTS',
+    subtitle: 'Honoring divine energy, discipline, dance & inner strength',
+    footerQuote: '“Strength, grace, wisdom, and courage awaken in pure devotion.”',
+    previewBadgeColor: '#dc2626',
+  },
+  {
+    id: 'durga-puja',
+    name: 'Durga Puja Sharodotsav',
+    category: 'Hindu',
+    description: 'Iconic red and white (laal-par), golden accents, and autumnal celebration.',
+    symbol: '🌺',
+    colors: {
+      primary: '#b91c1c', // Sindoor red
+      secondary: '#b45309', // Antique gold
+      accent: '#e11d48', // Rose
+      bg: 'linear-gradient(135deg, #fff1f2 0%, #ffffff 60%, #fffbeb 100%)',
+      cardBg: 'rgba(255, 255, 255, 0.95)',
+      cardBorder: '#ffe4e6',
+      text: '#881337',
+      textMuted: '#b91c1c',
+      border: '#e11d48',
+      outerBorder: '3px double #b91c1c',
+      checkboxBorder: '#e11d48',
+      checkboxChecked: '#b91c1c',
+      checkboxCheckmark: '#ffffff',
+      badgeBg: '#fff1f2',
+      badgeText: '#881337',
+    },
+    fonts: {
+      heading: '"DM Serif Display", "Cinzel", serif',
+      body: '"Inter", sans-serif',
+    },
+    cornerMotif: 'mandala',
+    headerMotif: 'lotus',
+    headerBadge: 'SHUBHO SHARODIYA',
+    subtitle: 'Triumph of righteousness, family togetherness & festive beats',
+    footerQuote: '“May Ma Durga bestow peace, prosperity, and fearlessness upon all beings.”',
+    previewBadgeColor: '#e11d48',
+  },
+];

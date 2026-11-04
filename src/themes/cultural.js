@@ -1,0 +1,138 @@
+export const culturalThemes = [
+  {
+    id: 'songkran',
+    name: 'Songkran Water Festival',
+    category: 'Cultural',
+    description: 'Refreshing tropical azure, jasmine garland white, and joyful Thai water splash.',
+    symbol: '🌊',
+    colors: {
+      primary: '#0284c7', // Tropical ocean blue
+      secondary: '#0d9488', // Emerald water
+      accent: '#38bdf8', // Splash blue
+      bg: 'linear-gradient(135deg, #f0f9ff 0%, #ffffff 50%, #f0fdfa 100%)',
+      cardBg: 'rgba(255, 255, 255, 0.9)',
+      cardBorder: '#bae6fd',
+      text: '#0c4a6e',
+      textMuted: '#0369a1',
+      border: '#0284c7',
+      outerBorder: '3px double #0d9488',
+      checkboxBorder: '#0284c7',
+      checkboxChecked: '#0369a1',
+      checkboxCheckmark: '#ffffff',
+      badgeBg: '#e0f2fe',
+      badgeText: '#0369a1',
+    },
+    fonts: {
+      heading: '"DM Serif Display", "Playfair Display", serif',
+      body: '"Inter", sans-serif',
+    },
+    cornerMotif: 'floral',
+    headerMotif: 'lotus',
+    headerBadge: 'THAI NEW YEAR',
+    subtitle: 'Washing away misfortunes, blessing elders & joyful water celebrations',
+    footerQuote: '“May pure water wash away burdens and bring a sparkling year of prosperity.”',
+    previewBadgeColor: '#0284c7',
+  },
+  {
+    id: 'dia-de-los-muertos',
+    name: 'Día de los Muertos',
+    category: 'Cultural',
+    description: 'Vibrant cempasúchil marigold orange, rich purple papel picado, and sugar skull art.',
+    symbol: '🌼',
+    colors: {
+      primary: '#c2410c', // Marigold orange
+      secondary: '#7e22ce', // Festive purple
+      accent: '#ec4899', // Hot pink
+      bg: 'linear-gradient(135deg, #fff7ed 0%, #faf5ff 50%, #ffffff 100%)',
+      cardBg: 'rgba(255, 255, 255, 0.92)',
+      cardBorder: '#fed7aa',
+      text: '#7c2d12',
+      textMuted: '#9a3412',
+      border: '#ea580c',
+      outerBorder: '3px double #7e22ce',
+      checkboxBorder: '#ea580c',
+      checkboxChecked: '#c2410c',
+      checkboxCheckmark: '#ffffff',
+      badgeBg: '#fff7ed',
+      badgeText: '#7c2d12',
+    },
+    fonts: {
+      heading: '"Playfair Display", "Cinzel", serif',
+      body: '"Inter", sans-serif',
+    },
+    cornerMotif: 'mandala',
+    headerMotif: 'diya-mandala',
+    headerBadge: 'DAY OF THE DEAD',
+    subtitle: 'Honoring ancestors with love, music, ofrendas & sweet bread',
+    footerQuote: '“Those we love never truly leave us; they live on in our memories and stories.”',
+    previewBadgeColor: '#ea580c',
+  },
+  {
+    id: 'halloween',
+    name: 'Halloween Spooktacular',
+    category: 'Cultural',
+    description: 'Jack-o’-lantern pumpkin orange, midnight purple, and cozy mysterious dusk.',
+    symbol: '🎃',
+    colors: {
+      primary: '#ea580c', // Pumpkin orange
+      secondary: '#581c87', // Witching hour purple
+      accent: '#facc15', // Moon glow
+      bg: 'linear-gradient(135deg, #fff7ed 0%, #ffffff 60%, #faf5ff 100%)',
+      cardBg: 'rgba(255, 255, 255, 0.9)',
+      cardBorder: '#ffedd5',
+      text: '#431407',
+      textMuted: '#7c2d12',
+      border: '#c2410c',
+      outerBorder: '3px double #581c87',
+      checkboxBorder: '#ea580c',
+      checkboxChecked: '#c2410c',
+      checkboxCheckmark: '#ffffff',
+      badgeBg: '#ffedd5',
+      badgeText: '#7c2d12',
+    },
+    fonts: {
+      heading: '"Cinzel", "Playfair Display", serif',
+      body: '"Inter", sans-serif',
+    },
+    cornerMotif: 'stars',
+    headerMotif: 'snowflake',
+    headerBadge: 'ALL HALLOWS EVE',
+    subtitle: 'Costumes, pumpkin carving, eerie delights & sweet treats',
+    footerQuote: '“Double, double toil and trouble; fire burn and cauldron bubble.”',
+    previewBadgeColor: '#ea580c',
+  },
+  {
+    id: 'thanksgiving',
+    name: 'Thanksgiving Harvest',
+    category: 'Cultural',
+    description: 'Warm roasted amber, spiced cider cinnamon, and harvest cornucopia tones.',
+    symbol: '🦃',
+    colors: {
+      primary: '#9a3412', // Spiced cider brown
+      secondary: '#b45309', // Roasted amber
+      accent: '#d97706', // Golden maize
+      bg: 'linear-gradient(135deg, #fffbeb 0%, #fff7ed 50%, #ffffff 100%)',
+      cardBg: 'rgba(255, 255, 255, 0.92)',
+      cardBorder: '#fef3c7',
+      text: '#78350f',
+      textMuted: '#92400e',
+      border: '#d97706',
+      outerBorder: '3px double #9a3412',
+      checkboxBorder: '#d97706',
+      checkboxChecked: '#9a3412',
+      checkboxCheckmark: '#ffffff',
+      badgeBg: '#fffbeb',
+      badgeText: '#78350f',
+    },
+    fonts: {
+      heading: '"DM Serif Display", "Playfair Display", serif',
+      body: '"Inter", sans-serif',
+    },
+    cornerMotif: 'leaves',
+    headerMotif: 'autumn-leaf',
+    headerBadge: 'GRATITUDE & FEAST',
+    subtitle: 'Giving thanks, gathering loved ones & sharing abundant hospitality',
+    footerQuote: '“Gratitude turns what we have into enough, and more.”',
+    previewBadgeColor: '#b45309',
+  },
+];
