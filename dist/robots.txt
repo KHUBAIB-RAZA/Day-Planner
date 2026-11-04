@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dailyplannergenerator.com/sitemap.xml
+Sitemap: https://day-planner-esm.pages.dev/sitemap.xml
